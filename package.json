@@ -1,0 +1,36 @@
+{
+  "name": "khuro-project",
+  "version": "1.0.0",
+  "description": "ECO Track is a production-ready Next.js App Router platform for municipal waste\r management. It combines Supabase (Postgres + PostGIS + Auth + Realtime) with\r Mapbox to deliver live vehicle tracking, zone compliance, and SDG 12 guidance.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "framer-motion": "^12.33.0",
+    "mapbox-gl": "^3.18.1",
+    "next": "^16.1.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.2.1",
+    "@types/react": "^19.2.13",
+    "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}
